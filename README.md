@@ -1,3 +1,13 @@
+## Running instructions
+Each R script is completely independent. At the top, they call
+<code>
+outputDIR <- getwd()
+raw_data <- acquire.data("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", 
+                         outputDIR)
+</code>
+which downloads the file, unzips, returns the data table 
+
+
 ## Introduction
 
 This assignment uses data from
